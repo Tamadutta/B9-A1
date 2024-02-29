@@ -5,35 +5,46 @@ h2 {
  p h5 {
     font-family: "Inter", sans-serif;
  }
- .banner{
-    background-image: url(resources/Banner\ Image.png);
+ .container{
+   position: relative;
+   color: #FFFFFF;
+   text-align: center;
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-right: 140px;
+
  }
- .Banner{
-    text-align: center;
+ .center{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ color: #FFFFFF;
+  font-size: 75px;
+
  }
+ .happy-new-year{
+   font-size: 32px;
+   color: #FFFFFF;
+   text-align: center;
+}
+.party-celebration{
+   font-size: 72px;
+   font-weight: bold;
+   text-align: center;
+   color: #FFFFFF;
+}
+.section-1{
+ text-align: center;
+   margin-left: 170ox;
+   margin-bottom: 50px;
+}
  .h-1{
     color: #FF0000 ;
     text-align: center;
     font-size: 88px;
  }
- .img-1{
-    size: 60%;
- }
 
- .img-2{
-    size: 50px;
-    text-align: center;
- }
- .happy-new-year{
-    font-size: 32px;
-    color: #FFFFFF;
-    text-align: center;
- }
- .party-celebration{
-    font-size: 72px;
-    text-align: center;
-    color: #FFFFFF;
- }
  .our-holyday{
     color: #FF0000;
     text-align: center;
@@ -43,11 +54,36 @@ h2 {
     color: #070211;
     font-size: 48px;
     text-align: center;
+    
+ }
+ .new-year-img{
+     margin-bottom: 50px; 
  }
  /* section-2 */
-.section-2{
-    background-image: url(resources/Vectorrr.png);
+ .section-2{
+   margin-top: 50px;
+ }
+.midnight-party{
+   position: relative;
+   color: #FFFFFF;
+   text-align: left;
+  margin-left: 140px;
+  margin-top: 100px;
+  margin-right: 140px;
+
 }
+.left-aligned-text{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   padding: 100px;
+}
+.midnight-img{
+   margin-left: 120px;
+   margin-right: 140px;
+
+}
+
  .midnight{
     font-size: 64px;
     color: #FFFFFF;
@@ -62,18 +98,109 @@ h2 {
     color: #FFFFFF;
     background-color: transparent;
     border: none;
+    font-weight: bold;
  }
  /* section-3 */
  .section-3{
-    background-color: #fad7d7;
+    background-color: hsl(0, 100%, 97%);
+    text-align: center;
+    padding: 100px;
+    margin: 100px 150px 100px 150px;
+    font-weight: 600;
+    font-size: 35px;
+
+ }
+ .span-special{
+   color: #FF0000;
  }
  .button-2{
-    color: hsl(0, 11%, 5%);
-    background-color: transparent;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 1);
     border: none;
     align-items: center;
  }
+  /* section-4 */
+.flex-items{
+   display: flex;
+   gap: 150px;
+}
+.best-offer{
+   max-width: 400px;
+   max-height: 250px;
+   margin-left: 200px;
+}
+  .best-offer-text{
+   color: #FF0000;
+   font-size: 24px;
+  }
+  .coming-soon{
+   font-size: 48px;
+   color: black;
+   font-weight: bolder;
+  }
+  .p-text{
+   color: #070211;
+   font-size: 20px;
+  }
+  .text{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .wrapped-text{
+   max-width: 270px;
+   max-height: 170px;
+  }
+ /* section-5 */
+ .section-5{
+   margin-top: 100px;
+ }
+ .sec-5{
+   margin-left: 100px;
+  text-align: center;
+ }
+ .holidays-text{
+   font-size: 75px;
+   font-weight: bold;
+ }
+ .FUNCTIONAL{
+   font-size: 24px;
+ }
+
+ .rectangle-2{
+   margin-left: 220px;
+ }
+ .group-75{
+   position: relative;
+   margin-top: 20px;
+ }
+ .group-44{
+   position: relative;
+   margin-bottom: 100px;
+   
+ }
+/* section-6 */
+.section-6{
+   margin-left: 220px;
+   margin-bottom: 50px;
+}
+.best-gifts{
+   color: #FF0000;
+   font-size: 24px;
+}
+.awesome-portfolio{
+   font-size: 48px;
+   font-weight: bolder;
+}
+
  /* section-7 */
+ .section-7{
+   margin-left: 200px;
+   margin-bottom: 80px;
+ }
  .picture-3-1{
     display: flex;
     gap: 20px;
@@ -82,7 +209,11 @@ h2 {
  /* section-8 */
  .section-8{
     max-width: 1320px;
-    max-height: 616px;
+    max-height: 620px;
+margin-left: 200px;
+margin-bottom: 80px;
+padding-top: 50px;
+padding-bottom: 10px;
     background-color: #fad7d7;
     text-align: center;
  }
@@ -94,10 +225,27 @@ h2 {
  }
  .Subscribe{
     display: flex;
+    margin-left: 350px;
+   margin-bottom: 100px;
     
  }
  .user{
-    padding: 0 30px 30px 30px 100px;
+   background-color: white;
+   border-color: white;
+   border-radius:50px 0px 0 50px;
+  padding: 30px 200px 30px 30px;
+  font-size: 18px;
+ }
+ .user-2{
+   background-color:orangered;
+   border-color: orangered;
+   font-size: 20px;
+   color: white;
+   border-width: 0cap;
+
+   border-radius:0px 50px 50px 0px;
+  padding: 30px 100px 30px 30px;
+
  }
  /* footer */
  .footer{
@@ -108,12 +256,20 @@ h2 {
  footer{
     background-color: #070211;
     color: #FFFFFF;
-    max-width: 1600px;
+    margin-right: 250px;
     max-height: 609px;
+    margin-left: 200px;
+ }
+ .footer-p{
+   padding: 80px 0 50px 100px;
+ }
+ .footer-p-2{
+   padding: 80px 100px 0px 100px;
  }
  .footer-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
 width: 328px;
  }
